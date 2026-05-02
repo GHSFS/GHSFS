@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f1f1f,100:ff7043&height=220&section=header&text=GHSFS&fontColor=ffffff&fontSize=80&fontAlignY=38&desc=building%20small%2C%20sharp%20tools%20in%20Rust&descAlignY=62&descSize=18" width="100%" alt="header"/>
+<img src="https://raw.githubusercontent.com/GHSFS/GHSFS/main/.github/banner.svg" width="100%" alt="GHSFS — building small, sharp tools in Rust"/>
 
 <br/>
 
