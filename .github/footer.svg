@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff7043"/>
+      <stop offset="50%" stop-color="#1f1f1f"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="footerWave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff7043" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ff7043" stop-opacity="0.08"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M0 40 Q 300 0 600 35 T 1200 20 L 1200 120 L 0 120 Z" fill="url(#footerWave)"/>
+  <path d="M0 60 Q 300 25 600 55 T 1200 40 L 1200 120 L 0 120 Z" fill="url(#footerBg)"/>
+  <rect x="0" y="116" width="1200" height="4" fill="#ff7043"/>
+</svg>
