@@ -1,5 +1,10 @@
 <div align="center">
 
+<p align="center">
+  <strong>🇺🇸 English</strong> · <a href="https://github.com/GHSFS/GHSFS/blob/main/docs/locales/ko.md">🇰🇷 한국어</a> · <a href="https://github.com/GHSFS/GHSFS/blob/main/docs/locales/zh-CN.md">🇨🇳 中文</a> · <a href="https://github.com/GHSFS/GHSFS/blob/main/docs/locales/es.md">🇪🇸 Español</a> · <a href="https://github.com/GHSFS/GHSFS/blob/main/docs/locales/hi.md">🇮🇳 हिन्दी</a><br />
+  <a href="https://github.com/GHSFS/GHSFS/blob/main/docs/locales/ar.md">🇸🇦 العربية</a> · <a href="https://github.com/GHSFS/GHSFS/blob/main/docs/locales/pt-BR.md">🇧🇷 Português</a> · <a href="https://github.com/GHSFS/GHSFS/blob/main/docs/locales/ru.md">🇷🇺 Русский</a> · <a href="https://github.com/GHSFS/GHSFS/blob/main/docs/locales/fr.md">🇫🇷 Français</a> · <a href="https://github.com/GHSFS/GHSFS/blob/main/docs/locales/id.md">🇮🇩 Bahasa Indonesia</a>
+</p>
+
 <img src="https://raw.githubusercontent.com/GHSFS/GHSFS/main/.github/banner.svg" width="100%" alt="GHSFS — building small, sharp tools in Rust"/>
 
 <br/>
@@ -59,15 +64,15 @@ const ME: Dev = Dev {
 
 ### 📦 the rdl ecosystem
 
-> 세 개의 작은 도구가 하나의 흐름을 만듭니다 — **클립보드 → 트레이 → 원격 다운로더 → 알림.**
+> Three small tools composing one seamless flow — **Clipboard → System Tray → Remote Downloader → Notification.**
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
 #### 🧊 [`remote-dl`](https://github.com/GHSFS/remote-dl)
-GitHub Actions 기반 원격 다운로더.<br/>
-URL 하나 던지면 러너가 받아 클라우드로 직송·보관.
+GitHub Actions-powered remote downloader.<br/>
+Submit a URL, the runner fetches and relays it directly to cloud storage.
 
 ![Rust](https://img.shields.io/badge/-Rust-000?style=flat-square&logo=rust&logoColor=ff7043)
 ![Actions](https://img.shields.io/badge/-Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
@@ -78,8 +83,8 @@ URL 하나 던지면 러너가 받아 클라우드로 직송·보관.
 <td width="33%" valign="top">
 
 #### 📋 [`rdl-tray`](https://github.com/GHSFS/rdl-tray)
-시스템 트레이 컴패니언.<br/>
-클립보드 URL을 감시 → 토스트 알림 및 즉시 큐 등록.
+System tray companion.<br/>
+Monitors clipboard URLs → triggers toast alerts and immediate queue registration.
 
 ![Rust](https://img.shields.io/badge/-Rust-000?style=flat-square&logo=rust&logoColor=ff7043)
 ![Win32](https://img.shields.io/badge/-Win32-0078D6?style=flat-square&logo=windows&logoColor=white)
@@ -90,8 +95,8 @@ URL 하나 던지면 러너가 받아 클라우드로 직송·보관.
 <td width="33%" valign="top">
 
 #### 🐚 [`rdl-shell`](https://github.com/GHSFS/rdl-shell)
-탐색기 컨텍스트 메뉴 확장.<br/>
-`.url` 파일 우클릭 → "Send to remote-dl".
+Windows Explorer context menu extension.<br/>
+Right-click any `.url` file → "Send to remote-dl".
 
 ![Rust](https://img.shields.io/badge/-Rust-000?style=flat-square&logo=rust&logoColor=ff7043)
 ![COM](https://img.shields.io/badge/-COM-512BD4?style=flat-square&logo=windows&logoColor=white)
@@ -111,8 +116,8 @@ URL 하나 던지면 러너가 받아 클라우드로 직송·보관.
 <td width="50%" valign="top">
 
 #### 🕵️ [`shadow-vault`](https://github.com/GHSFS/shadow-vault)
-무손실 PNG/WAV/BMP 스테가노그래피와 이중 하드웨어 바인딩(`Argon2id` + `ChaCha20-Poly1305 AEAD` + Windows `DPAPI`)을 결합한 제로 트러스트 암호화 금고(`svault`).<br/>
-듀레스 디코이 볼륨, Shamir 비밀 분산(`GF(2^8)`), Reed-Solomon 자가 치유, TOTP 및 원자적 패스프레이즈 로테이션 지원.
+Zero-trust encrypted vault (`svault`) combining lossless PNG/WAV/BMP/MP3 steganography with dual hardware binding (`Argon2id` + `ChaCha20-Poly1305 AEAD` + Windows `DPAPI`).<br/>
+Supports duress decoy volumes, Shamir secret sharing (`GF(2^8)`), Reed-Solomon self-healing, TOTP, and atomic passphrase rotation.
 
 ![Rust](https://img.shields.io/badge/-Rust-000?style=flat-square&logo=rust&logoColor=ff7043)
 ![Win32 DPAPI](https://img.shields.io/badge/-DPAPI-0078D6?style=flat-square&logo=windows&logoColor=white)
@@ -122,8 +127,8 @@ URL 하나 던지면 러너가 받아 클라우드로 직송·보관.
 <td width="50%" valign="top">
 
 #### 🧬 [`bin-sentinel`](https://github.com/GHSFS/bin-sentinel)
-제로 디펜던시 바이너리 포렌식 및 정적 분석·패치 엔진(`bsentinel`).<br/>
-PE32/PE32+, ELF64, Mach-O/Universal 헤더 파싱, 패커 엔트로피/S-Box 탐지, x86_64 프롤로그 디스어셈블리, Authenticode 서명 검증 및 선언적 바이너리 디프/패치 레시피 지원.
+Zero-dependency binary forensics, static inspection & byte-patching engine (`bsentinel`).<br/>
+Parses PE32/PE32+, ELF64, Mach-O/Universal headers, detects packer entropy & crypto constants, disassembles x86_64 prologues, validates Authenticode signatures, and crafts declarative patch recipes.
 
 ![Rust](https://img.shields.io/badge/-Rust-000?style=flat-square&logo=rust&logoColor=ff7043)
 ![Forensics](https://img.shields.io/badge/-Binary%20Forensics-4B5563?style=flat-square)
@@ -135,8 +140,8 @@ PE32/PE32+, ELF64, Mach-O/Universal 헤더 파싱, 패커 엔트로피/S-Box 탐
 <td width="50%" valign="top">
 
 #### 📡 [`net-specter`](https://github.com/GHSFS/net-specter)
-제로 디펜던시 네트워크 패킷 포렌식 및 암호화 트래픽 지문 분석기(`nspecter`).<br/>
-PCAP/PCAPNG 디코딩, TCP 스트림 재조립, TLS `JA3`/`JA3S`/`JA4`/`JA4S`/`JA4H` 지문 추출, QUIC Initial(RFC 9001) 복호화, DNS 터널링·C2 비콘 지터 스펙트로그램 탐지 및 BPF 필터 엔진 탑재.
+Zero-dependency network packet forensics and encrypted traffic fingerprinting engine (`nspecter`).<br/>
+Decodes PCAP/PCAPNG, reassembles TCP streams, extracts TLS `JA3`/`JA3S`/`JA4`/`JA4S`/`JA4H` fingerprints, decrypts QUIC Initial (RFC 9001), detects DNS tunneling/C2 jitter spectrograms, and features a BPF filter engine.
 
 ![Rust](https://img.shields.io/badge/-Rust-000?style=flat-square&logo=rust&logoColor=ff7043)
 ![Network](https://img.shields.io/badge/-Packet%20Forensics-0284C7?style=flat-square)
@@ -146,8 +151,8 @@ PCAP/PCAPNG 디코딩, TCP 스트림 재조립, TLS `JA3`/`JA3S`/`JA4`/`JA4S`/`J
 <td width="50%" valign="top">
 
 #### 🔬 [`firm-carver`](https://github.com/GHSFS/firm-carver)
-IoT 및 임베디드 펌웨어 언패커·매직 스트림 카버 및 정적 취약점 감사 엔진(`fcarver`).<br/>
-U-Boot/TRX/FDT 컨테이너 분석, SquashFS v4 트리 추출, 엔트로피 기반 파티션 슬라이싱, 다중 아키텍처(MIPS/ARM/RISC-V) 셸코드·CGI 명령 주입·하드코딩 인증서 감사 지원.
+IoT & embedded firmware unpacker, magic stream carver, and static vulnerability auditor (`fcarver`).<br/>
+Analyzes U-Boot/TRX/FDT containers, extracts SquashFS v4 trees, slices partitions via entropy mapping, and audits multi-arch (MIPS/ARM/RISC-V) shellcode, CGI command injection & hardcoded certs.
 
 ![Rust](https://img.shields.io/badge/-Rust-000?style=flat-square&logo=rust&logoColor=ff7043)
 ![Firmware](https://img.shields.io/badge/-IoT%20Security-7C3AED?style=flat-square)
@@ -166,8 +171,8 @@ U-Boot/TRX/FDT 컨테이너 분석, SquashFS v4 트리 추출, 엔트로피 기�
 <td width="100%" valign="top">
 
 #### 🔀 [`llm-router-bot`](https://github.com/GHSFS/llm-router-bot)
-텔레그램 메시지를 길이에 따라 고속 추론 및 심층 추론 엔드포인트로 자동 라우팅하는 서버리스 봇.<br/>
-Cloudflare Workers Free 티어에서 동작하며 Workers KV에 대화 컨텍스트와 모델 설정을 유지합니다.
+Serverless bot automatically routing Telegram messages to fast-inference or deep-reasoning endpoints based on prompt complexity.<br/>
+Runs on Cloudflare Workers Free tier and persists conversation context & model configs in Workers KV.
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Cloudflare Workers](https://img.shields.io/badge/-Workers-F38020?style=flat-square&logo=cloudflareworkers&logoColor=white)
