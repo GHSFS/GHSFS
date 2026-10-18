@@ -1,0 +1,40 @@
+name: Multi-Platform Profile Sync
+
+on:
+  push:
+    branches:
+      - '**'
+    tags:
+      - '**'
+  workflow_dispatch:
+
+jobs:
+  mirror-gitlab-profile:
+    name: Mirror -> GitLab Profile
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code with Full History
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push to GitLab Profile Repo
+        run: |
+          echo "Syncing profile to GitLab (ghsfs_4c1f7f/ghsfs_4c1f7f)..."
+          git remote set-head origin -d || true
+          git push --prune "https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/ghsfs_4c1f7f/ghsfs_4c1f7f.git" "+refs/remotes/origin/*:refs/heads/*" "+refs/tags/*:refs/tags/*"
+
+  mirror-gitea-profile:
+    name: Mirror -> Gitea Profile
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code with Full History
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push to Gitea Profile Repo
+        run: |
+          echo "Syncing profile to Gitea (GHSFS/.profile)..."
+          git remote set-head origin -d || true
+          git push --prune "https://${{ secrets.GITEA_TOKEN }}@gitea.com/GHSFS/.profile.git" "+refs/remotes/origin/*:refs/heads/*" "+refs/tags/*:refs/tags/*"

@@ -15,7 +15,9 @@
 
 </div>
 
+
 ---
+
 
 ### 👋 sobre mí
 
@@ -40,9 +42,12 @@ const ME: Dev = Dev {
 };
 ```
 
+
 ---
 
-### 🛠 tecnologías
+<details>
+<summary><h3>🛠 tecnologías</h3></summary>
+<br/>
 
 <div align="center">
 
@@ -60,9 +65,13 @@ const ME: Dev = Dev {
 
 </div>
 
+</details>
+
 ---
 
-### 📦 el ecosistema rdl
+<details open>
+<summary><h3>📦 el ecosistema rdl</h3></summary>
+<br/>
 
 > Tres pequeñas herramientas que componen un flujo continuo — **Portapapeles → Bandeja del sistema → Descargador remoto → Notificación.**
 
@@ -107,9 +116,13 @@ Clic derecho en cualquier archivo `.url` → "Send to remote-dl".
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🔐 seguridad, análisis forense y esteganografía
+<details open>
+<summary><h3>🔐 seguridad, análisis forense y esteganografía</h3></summary>
+<br/>
 
 <table>
 <tr>
@@ -162,9 +175,13 @@ Analiza contenedores U-Boot/TRX/FDT, extrae árboles SquashFS v4, divide partici
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🤖 herramientas perimetrales y serverless
+<details>
+<summary><h3>🤖 herramientas perimetrales y serverless</h3></summary>
+<br/>
 
 <table>
 <tr>
@@ -184,9 +201,13 @@ Se ejecuta en el plan gratuito de Cloudflare Workers y mantiene el contexto de c
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🧭 filosofía
+<details>
+<summary><h3>🧭 filosofía</h3></summary>
+<br/>
 
 ```text
 ┌─────────────────────────────────────────────────────────┐
@@ -197,7 +218,10 @@ Se ejecuta en el plan gratuito de Cloudflare Workers y mantiene el contexto de c
 └─────────────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ---
+
 
 <div align="center">
 

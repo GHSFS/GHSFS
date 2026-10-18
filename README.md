@@ -15,7 +15,9 @@
 
 </div>
 
+
 ---
+
 
 ### 👋 about
 
@@ -40,9 +42,12 @@ const ME: Dev = Dev {
 };
 ```
 
+
 ---
 
-### 🛠 stack
+<details>
+<summary><h3>🛠 stack</h3></summary>
+<br/>
 
 <div align="center">
 
@@ -60,9 +65,13 @@ const ME: Dev = Dev {
 
 </div>
 
+</details>
+
 ---
 
-### 📦 the rdl ecosystem
+<details open>
+<summary><h3>📦 the rdl ecosystem</h3></summary>
+<br/>
 
 > Three small tools composing one seamless flow — **Clipboard → System Tray → Remote Downloader → Notification.**
 
@@ -107,9 +116,13 @@ Right-click any `.url` file → "Send to remote-dl".
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🔐 security, forensics & steganography
+<details open>
+<summary><h3>🔐 security, forensics & steganography</h3></summary>
+<br/>
 
 <table>
 <tr>
@@ -162,9 +175,13 @@ Analyzes U-Boot/TRX/FDT containers, extracts SquashFS v4 trees, slices partition
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🤖 serverless & edge tooling
+<details>
+<summary><h3>🤖 serverless & edge tooling</h3></summary>
+<br/>
 
 <table>
 <tr>
@@ -184,9 +201,13 @@ Runs on Cloudflare Workers Free tier and persists conversation context & model c
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🧭 philosophy
+<details>
+<summary><h3>🧭 philosophy</h3></summary>
+<br/>
 
 ```text
 ┌─────────────────────────────────────────────────────────┐
@@ -197,7 +218,10 @@ Runs on Cloudflare Workers Free tier and persists conversation context & model c
 └─────────────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ---
+
 
 <div align="center">
 

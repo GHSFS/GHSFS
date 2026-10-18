@@ -15,7 +15,9 @@
 
 </div>
 
+
 ---
+
 
 ### 👋 نبذة عني
 
@@ -40,9 +42,12 @@ const ME: Dev = Dev {
 };
 ```
 
+
 ---
 
-### 🛠 الحزمة التقنية
+<details>
+<summary><h3>🛠 الحزمة التقنية</h3></summary>
+<br/>
 
 <div align="center">
 
@@ -60,9 +65,13 @@ const ME: Dev = Dev {
 
 </div>
 
+</details>
+
 ---
 
-### 📦 منظومة rdl
+<details open>
+<summary><h3>📦 منظومة rdl</h3></summary>
+<br/>
 
 > ثلاث أدوات دقيقة تُشكّل تدفق عمل سلس — **الحافظة → علبة النظام → أداة التنزيل عن بُعد → الإشعارات.**
 
@@ -107,9 +116,13 @@ const ME: Dev = Dev {
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🔐 الأمان، التحليل الجنائي وإخفاء البيانات (Steganography)
+<details open>
+<summary><h3>🔐 الأمان، التحليل الجنائي وإخفاء البيانات (Steganography)</h3></summary>
+<br/>
 
 <table>
 <tr>
@@ -162,9 +175,13 @@ const ME: Dev = Dev {
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🤖 أدوات الحافة والحوسبة بدون خادم
+<details>
+<summary><h3>🤖 أدوات الحافة والحوسبة بدون خادم</h3></summary>
+<br/>
 
 <table>
 <tr>
@@ -184,9 +201,13 @@ const ME: Dev = Dev {
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🧭 الفلسفة البرمجية
+<details>
+<summary><h3>🧭 الفلسفة البرمجية</h3></summary>
+<br/>
 
 ```text
 ┌─────────────────────────────────────────────────────────┐
@@ -197,7 +218,10 @@ const ME: Dev = Dev {
 └─────────────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ---
+
 
 <div align="center">
 

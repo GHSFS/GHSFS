@@ -15,7 +15,9 @@
 
 </div>
 
+
 ---
+
 
 ### 👋 소개
 
@@ -40,9 +42,12 @@ const ME: Dev = Dev {
 };
 ```
 
+
 ---
 
-### 🛠 기술 스택
+<details>
+<summary><h3>🛠 기술 스택</h3></summary>
+<br/>
 
 <div align="center">
 
@@ -60,9 +65,13 @@ const ME: Dev = Dev {
 
 </div>
 
+</details>
+
 ---
 
-### 📦 rdl 생태계
+<details open>
+<summary><h3>📦 rdl 생태계</h3></summary>
+<br/>
 
 > 세 개의 작은 도구가 하나의 유기적 흐름을 만듭니다 — **클립보드 → 트레이 → 원격 다운로더 → 알림.**
 
@@ -107,9 +116,13 @@ URL 하나 던지면 러너가 받아 클라우드로 직송·보관.
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🔐 보안, 포렌식 및 스테가노그래피
+<details open>
+<summary><h3>🔐 보안, 포렌식 및 스테가노그래피</h3></summary>
+<br/>
 
 <table>
 <tr>
@@ -162,9 +175,13 @@ U-Boot/TRX/FDT 컨테이너 분석, SquashFS v4 트리 추출, 엔트로피 기�
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🤖 서버리스 및 엣지 도구
+<details>
+<summary><h3>🤖 서버리스 및 엣지 도구</h3></summary>
+<br/>
 
 <table>
 <tr>
@@ -184,9 +201,13 @@ Cloudflare Workers Free 티어에서 동작하며 Workers KV에 대화 컨텍스
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🧭 개발 철학
+<details>
+<summary><h3>🧭 개발 철학</h3></summary>
+<br/>
 
 ```text
 ┌─────────────────────────────────────────────────────────┐
@@ -197,7 +218,10 @@ Cloudflare Workers Free 티어에서 동작하며 Workers KV에 대화 컨텍스
 └─────────────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ---
+
 
 <div align="center">
 

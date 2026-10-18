@@ -15,7 +15,9 @@
 
 </div>
 
+
 ---
+
 
 ### 👋 关于
 
@@ -40,9 +42,12 @@ const ME: Dev = Dev {
 };
 ```
 
+
 ---
 
-### 🛠 技术栈
+<details>
+<summary><h3>🛠 技术栈</h3></summary>
+<br/>
 
 <div align="center">
 
@@ -60,9 +65,13 @@ const ME: Dev = Dev {
 
 </div>
 
+</details>
+
 ---
 
-### 📦 rdl 生态系统
+<details open>
+<summary><h3>📦 rdl 生态系统</h3></summary>
+<br/>
 
 > 三个精巧的工具构成一个无缝工作流 — **剪贴板 → 系统托盘 → 远程下载器 → 消息通知。**
 
@@ -107,9 +116,13 @@ Windows 资源管理器右键上下文菜单扩展。<br/>
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🔐 安全、取证与隐写术
+<details open>
+<summary><h3>🔐 安全、取证与隐写术</h3></summary>
+<br/>
 
 <table>
 <tr>
@@ -162,9 +175,13 @@ IoT 与嵌入式固件解包、魔数流提取与静态漏洞审计工具（`fca
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🤖 无服务器与边缘工具
+<details>
+<summary><h3>🤖 无服务器与边缘工具</h3></summary>
+<br/>
 
 <table>
 <tr>
@@ -184,9 +201,13 @@ IoT 与嵌入式固件解包、魔数流提取与静态漏洞审计工具（`fca
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🧭 核心哲学
+<details>
+<summary><h3>🧭 核心哲学</h3></summary>
+<br/>
 
 ```text
 ┌─────────────────────────────────────────────────────────┐
@@ -197,7 +218,10 @@ IoT 与嵌入式固件解包、魔数流提取与静态漏洞审计工具（`fca
 └─────────────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ---
+
 
 <div align="center">
 

@@ -15,7 +15,9 @@
 
 </div>
 
+
 ---
+
 
 ### 👋 tentang saya
 
@@ -40,9 +42,12 @@ const ME: Dev = Dev {
 };
 ```
 
+
 ---
 
-### 🛠 teknologi
+<details>
+<summary><h3>🛠 teknologi</h3></summary>
+<br/>
 
 <div align="center">
 
@@ -60,9 +65,13 @@ const ME: Dev = Dev {
 
 </div>
 
+</details>
+
 ---
 
-### 📦 ekosistem rdl
+<details open>
+<summary><h3>📦 ekosistem rdl</h3></summary>
+<br/>
 
 > Tiga alat kecil yang menyusun satu alur kerja mulus — **Papan klip → Baki sistem → Pengunduh jarak jauh → Notifikasi.**
 
@@ -107,9 +116,13 @@ Klik kanan file `.url` apa pun → "Send to remote-dl".
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🔐 keamanan, forensik & steganografi
+<details open>
+<summary><h3>🔐 keamanan, forensik & steganografi</h3></summary>
+<br/>
 
 <table>
 <tr>
@@ -162,9 +175,13 @@ Menganalisis kontainer U-Boot/TRX/FDT, mengekstrak pohon SquashFS v4, memotong p
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🤖 alat serverless & edge
+<details>
+<summary><h3>🤖 alat serverless & edge</h3></summary>
+<br/>
 
 <table>
 <tr>
@@ -184,9 +201,13 @@ Berjalan di tingkat gratis Cloudflare Workers dan mempertahankan konteks percaka
 </tr>
 </table>
 
+</details>
+
 ---
 
-### 🧭 filosofi
+<details>
+<summary><h3>🧭 filosofi</h3></summary>
+<br/>
 
 ```text
 ┌─────────────────────────────────────────────────────────┐
@@ -197,7 +218,10 @@ Berjalan di tingkat gratis Cloudflare Workers dan mempertahankan konteks percaka
 └─────────────────────────────────────────────────────────┘
 ```
 
+</details>
+
 ---
+
 
 <div align="center">
 
