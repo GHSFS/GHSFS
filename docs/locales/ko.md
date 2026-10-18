@@ -48,7 +48,7 @@ Rust로 **가볍고 번개처럼 빠른 네이티브 시스템 도구**를 개�
 - **속도와 미니멀리즘**: 불필요한 런타임 오버헤드와 메모리 낭비를 철저히 배제하고 본질적인 속도에 집중합니다.
 - **네이티브 우선**: 인터프리터나 가상 머신에 의존하지 않는 단일 독립 실행형 바이너리를 지향합니다.
 - **실전 실용주의**: 탁상공론식 복잡함을 배제하고, 현업의 기술적 문제를 가장 직접적이고 정밀하게 해결합니다.
-- **다중 플랫폼 미러링**: 핵심 프로젝트는 GitHub뿐만 아니라 GitLab, Gitea, Hugging Face로 실시간 동기화됩니다.
+- **다중 플랫폼 미러링**: 핵심 프로젝트는 GitHub뿐만 아니라 GitLab, Hugging Face로 실시간 동기화됩니다.
 
 ---
 
@@ -175,8 +175,7 @@ fn current_stack() -> Vec<&'static str> {
 모든 주요 도구는 오픈 생태계 전반에 실시간 동기화됩니다:
 
 - **GitHub**: [github.com/GHSFS](https://github.com/GHSFS) *(메인 소스)*
-- **GitLab**: [gitlab.com/ghsfs_4c1f7f](https://gitlab.com/ghsfs_4c1f7f)
-- **Gitea**: [gitea.com/GHSFS](https://gitea.com/GHSFS)
+- **GitLab**: [gitlab.com/users/ghsfs_4c1f7f/projects](https://gitlab.com/users/ghsfs_4c1f7f/projects)
 - **Hugging Face**: [huggingface.co/ghsfs-dev](https://huggingface.co/ghsfs-dev)
 
 ---

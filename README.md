@@ -48,7 +48,7 @@ I care deeply about performance and efficiency. I don't like slow tools, bloated
 - **Speed & Minimalism**: Zero runtime overhead, minimal memory footprints, and ruthless optimization.
 - **Native First**: Standalone compiled binaries with no bulky VM or interpreter dependencies.
 - **Pragmatic Craftsmanship**: Code that directly solves real-world engineering problems cleanly.
-- **Ecosystem Redundancy**: Core projects are replicated across GitHub, GitLab, Gitea, and Hugging Face.
+- **Ecosystem Redundancy**: Core projects are replicated across GitHub, GitLab, and Hugging Face.
 
 ---
 
@@ -181,8 +181,7 @@ fn current_stack() -> Vec<&'static str> {
 All major tools are synchronized across open ecosystems:
 
 - **GitHub**: [github.com/GHSFS](https://github.com/GHSFS) *(Primary source)*
-- **GitLab**: [gitlab.com/ghsfs_4c1f7f](https://gitlab.com/ghsfs_4c1f7f)
-- **Gitea**: [gitea.com/GHSFS](https://gitea.com/GHSFS)
+- **GitLab**: [gitlab.com/users/ghsfs_4c1f7f/projects](https://gitlab.com/users/ghsfs_4c1f7f/projects)
 - **Hugging Face**: [huggingface.co/ghsfs-dev](https://huggingface.co/ghsfs-dev)
 
 ---
